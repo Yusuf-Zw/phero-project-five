@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+:root{
+    color: black;
+    
+}
+
+.btn{
+    cursor: pointer;
+    font-size: 10px;
+}
+
+.container{
+    min-height: 100px;
+}
+.meal-area{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 4px;
+    background: white;
+    text-align: center;
+}
+
+.search-area{
+    padding: 0 10px;
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+.search-btn{
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    background: darkslateblue;
+    color: white;
+    border: none;
+    padding: 2px;
+}
+.mealDisplayingResult{
+    margin-top: 50px;
+}
+#meal{
+    margin: 30px 0;
+}
+.meal-items{
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 10px 10px 5px 5px  gray;
+
+}
+.meal-images img{
+    width: 100%;
+    display: block;
+}
+
+.recipe-btn{
+    text-decoration: none;
+    color: wheat;
+    background: lightcoral;
+    font-weight: 400;
+    font-size: 25px;
+    padding: 2px;
+    display: block;
+    width: 200px;
+    margin:  auto;
+    border-radius: 10px;
+}
+
+.meal-details{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background: gray;
+    width: 50%;
+    height: 80%;
+    overflow-y: scroll;
+    display: none;
+
+}
+.meal-details::-webkit-scrollbar{
+    width: 20px;
+}
+.meal-details::-webkit-scrollbar-thumb{
+    background: wheat;
+    border-radius: 8px;
+}
+
+.displayingRecipe{
+    display: block;
+}
+
+.mealDescription{
+    margin: 2rem;
+}
+
+.mealClosingBtn{
+    position: absolute;
+    right: 2px;
+    top: 2px;
+
+    background: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.meal-images img{
+    
+    height: 200px;
+    border-radius: 25px;
+    width: 250px;
+    margin: auto;
+    display: block;
+}
+
+.invalid{ 
+    color: Black;
+    font-size: 30px;
+    font-weight: 700;
+    width: 100%;
+}
+
+.searchingBox{
+    width: 500px;
+    margin-left:35%;
+    display: flex;
+    align-items: stretch;
+}
+   
+#hotMeal{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}        
+
