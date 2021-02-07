@@ -61,15 +61,26 @@ function mealRecipes(choose){
 function findRecipe(meal){
     meal = meal[0];
 
-    let html = `<h1>${meal.strMeal}</h1>
-        <h3>${meal.strCategory}</h3>
+    let html = `
+        
         <div>
             <div class = "meal-images">
                 <img src = "${meal.strMealThumb}" alt = "">
+                <h1>${meal.strMeal} </h1>
             </div>
-                <h2>Preparing Instructions:</h2>
-                <br>
-                <h3><li> ${meal.strInstructions}</li></h3>
+                <h2>Ingredients:</h2>
+              <ul>
+                <h3><li> ${meal.strIngredient1}</li></h3>
+                <h3><li> ${meal.strIngredient2}</li></h3>
+                <h3><li> ${meal.strIngredient3}</li></h3>
+                <h3><li> ${meal.strIngredient4}</li></h3>
+                <h3><li> ${meal.strIngredient5}</li></h3>
+                <h3><li> ${meal.strIngredient6}</li></h3>
+                <h3><li> ${meal.strIngredient7}</li></h3>
+                <h3><li> ${meal.strIngredient8}</li></h3>
+                <h3><li> ${meal.strIngredient9}</li></h3>
+                <h3><li> ${meal.strIngredient10}</li></h3>
+                </ul>
         </div>`;
         
     mealDescription.innerHTML = html;
