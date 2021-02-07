@@ -11,7 +11,6 @@ crossBtn.addEventListener('click', () => {
     mealDescription.parentElement.classList.remove('displayingRecipe');
 });
 
-
 // 2nd Phase
 function mealFullMenu(){
     let searchingInput = document.getElementById('searchingInput').value.trim();
@@ -47,7 +46,6 @@ function mealFullMenu(){
     });
 }
 
-
 // 3rd Phase
 function mealRecipes(choose){
     choose.preventDefault();
@@ -71,7 +69,7 @@ function findRecipe(meal){
             </div>
                 <h2>Preparing Instructions:</h2>
                 <br>
-                <h3>${meal.strInstructions}</h3>
+                <h3><li> ${meal.strInstructions}</li></h3>
         </div>`;
         
     mealDescription.innerHTML = html;

@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 
-
 :root{
     color: black;
     
@@ -135,5 +134,4 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
-}        
-
+}       
